@@ -1,11 +1,14 @@
 import './App.css';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Beats Dating App</h1>
-      </header>
+    <div className='App'>
+      <Header />
+      <video autoPlay muted loop className='backgroundVideo'>
+      {/* <source src="media/beats-dating2.mp4" type="video/mp4" /> */}
+        <source src="media/blended-volume-bars_bywfhhwbh__D.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 }
