@@ -1,15 +1,15 @@
-.App {
-  text-align: center;
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --dark-grey: rgba(0, 0, 0, 0.60);
+  --light-grey: rgba(238, 238, 238, 1);
+  --white: rgba(255, 255, 255, 1);
+  --red: rgba(225, 98, 89, 1);
+  --primary: rgba(107, 1, 72, 1);
+  --box-shadow: rgba(0, 0, 0, 0.20);
 }
 
-.App-header {
-  background-color: rgba(107, 1, 72, 0.5);
-  min-height: 5vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App {
+  text-align: center;
 }
 
 h1 {
